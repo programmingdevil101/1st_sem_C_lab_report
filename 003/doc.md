@@ -26,3 +26,28 @@
 #### Output
     Enter a number: 12
     The number is positive
+
+
+
+### **WAP to find maximum between three numbers entered by user**
+
+#### Code
+    #include <stdio.h>
+
+    int main()
+    {
+        int a, b, c;
+        printf("Enter the values for a, b, c: ");
+        scanf("%d%d%d", &a, &b, &c);
+        if(a > b && a > c)
+            printf("%d is maximum number\n", a);
+        else if(b > c)
+            printf("%d is maximum number\n", b);
+        else
+            printf("%d is maximum number\n", c);
+        return 0;
+    }
+
+#### Output
+    Enter the values for a, c, c: 10 3 12
+    12 is the maximum number

@@ -109,4 +109,73 @@
     The D character is an uppercase alphabet
 
 
-### ****
+### **WAP to check whether the year entered by the user is a leap year or not**
+
+#### Code
+    #include <stdio.h>
+
+    int main()
+    {
+        int year;
+        printf("Enter a year: ");
+        scanf("%d", &year);
+        if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
+            printf("%d is an leap year.\n");
+        else
+            printf("%d is not a leap year\n");
+        return 0;
+    }
+
+#### Output
+    Enter a year: 1900
+    1900 is not a leap year
+
+
+### **WAP to check whether the number entered by the user is divisible by 5 and 11 or not**
+
+#### Code
+    TODO
+
+#### Output
+    TODO
+
+
+### **WAP to find the roots of quadratic equation.**
+
+#### Code
+    TODO
+
+#### Output
+    TODO
+
+
+### **WAP to input two numbers and operator among [ +, -, \*, /].If the user enters + then the program should perform the addition of the number and display the sum. If the user enters - then the program should perform the subtraction of number and display the difference and so on for \* and /.**
+
+#### Code
+    TODO
+
+#### Output
+    TODO
+
+
+### **WAP in C to input marks of five subjects C-programming, Physics, Maths, Applied Mechanics and Basic Electrical. Display whether the students passed or failed. Take F.M = 100 and PM = 40. For passed students calculate percentage and grade according to following:**
+- Percentage >= 90% : A
+- Percentage >= 80% : B
+- Percentage >= 70% : C
+- Percentage >= 60% : D
+- Percentage >= 40% : E
+
+#### Code
+    TODO
+
+#### Output
+    TODO
+
+
+### **WAP to input a number from user. If the user enters a number less than or equal to zero then program should just display the number. If the user enters 1 the program should display the output as neither prime nor composite, if the user enters 2 the program should display output as smallest and only even prime number. If the user enters number greater than 2 the program should check whether the number is prime or not, also if the number is not prime the program should display if it is even or odd.**
+
+#### Code
+    TODO
+
+#### Output
+    TODO

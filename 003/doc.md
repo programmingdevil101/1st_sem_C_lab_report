@@ -82,3 +82,25 @@
 #### Output
     Enter a character: T
     T is a consonant
+
+
+### **WAP to input a character from the user and check whether the character is Alphabet**
+
+#### Code
+    #include <stdio.h>
+
+    int main()
+    {
+        char c;
+        printf("Enter a character: ");
+        scanf("%c", &c);
+        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+            printf("The %c character is an alphabet\n", c);
+        else
+            printf("The %c character is not an Alphabet\n", c);
+        return 0;
+    }
+
+#### Output
+    Enter a character: D
+    The D character is an alphabet

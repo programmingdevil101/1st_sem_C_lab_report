@@ -84,7 +84,8 @@
     T is a consonant
 
 
-### **WAP to input a character from the user and check whether the character is Alphabet**
+### **WAP to input a character from the user and check whether the character is Alphabet.**
+### **If the character is Alphabet then show whether it is uppercase or lowercase.**
 
 #### Code
     #include <stdio.h>
@@ -94,8 +95,10 @@
         char c;
         printf("Enter a character: ");
         scanf("%c", &c);
-        if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-            printf("The %c character is an alphabet\n", c);
+        if(c >= 'a' && c <= 'z')
+            printf("The %c character is an lowercase alphabet\n", c);
+        else if(c >= 'A' && c <= 'Z')
+            printf("The %c character is an uppercase alphabet\n", c);
         else
             printf("The %c character is not an Alphabet\n", c);
         return 0;
@@ -103,4 +106,7 @@
 
 #### Output
     Enter a character: D
-    The D character is an alphabet
+    The D character is an uppercase alphabet
+
+
+### ****

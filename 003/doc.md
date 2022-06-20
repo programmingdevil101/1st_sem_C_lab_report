@@ -1,10 +1,21 @@
 # To be familiar with selective structure (branching)
 
 ## OBJECTIVES
-    1. TODO
-    2. TODO
+    1. To learn about if, if..else, if..else if..else statements
+    2. to learn about switch statements
 
 ### **WAP to check whether a number is negative, positive or zero**
+
+#### Algorithm
+    step 1: start
+    step 2: declare n
+    step 3: read n
+    step 4: if n is less than 0 then go to step 5 otherwise go to step 6
+    step 5: write the number is negative
+    step 6: if number is equal to 0 go to step 7 otherwise go to step 8
+    step 7: write the number is zero
+    step 8: write the number is positive
+    step 9: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_1.svg)
@@ -34,6 +45,17 @@
 
 ### **WAP to find maximum between three numbers entered by user**
 
+#### Algorithm
+    step 1: start
+    step 2: declare a, b, c;
+    step 3: read a, b, c;
+    step 4: if a is greater than b and a is greater than c then go to step 5 otherwise go to step 6
+    step 5: write a is maximum
+    step 6: if b is greater than c then  go to step 7 otherwise go to step 8
+    step 7: write b is maximum
+    step 8: write c is maximum
+    step 9: stop
+
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_2.svg)
 
@@ -60,6 +82,15 @@
 
 
 ### **WAP to input a character from user and check whether the character is vowel or consonant**
+
+#### Algorithm
+    step 1: start
+    step 2: declare c
+    step 3: read c
+    step 4: if c is any of a, e, i, o, u go to step 5 otherwise go to step 6
+    step 5: write the given character is vowel
+    step 6: write the given character is consonant
+    step 8: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_3.svg)

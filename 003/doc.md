@@ -6,6 +6,9 @@
 
 ### **WAP to check whether a number is negative, positive or zero**
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_1.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -160,10 +163,38 @@
 ### **WAP to find the roots of quadratic equation.**
 
 #### Code
-    TODO
+    #include <stdio.h>
+    #include <math.h>
+
+    int main()
+    {
+        double a, b, c, determinant, root1, root2, real, img;
+        printf("Enter the values of a, b and c: ");
+        scanf("%lf%lf%lf", &a, &b, &c);
+        determinant = b*b - 4*a*c;
+        if(determinant == 0)
+        {
+            root1 = root2 = -b / (2.0 * a);
+            printf("root1 = root2 = %.2lf\n", root1);
+        }
+        else if(determinant > 0)
+        {
+            root1 = (-b + sqrt(determinant) ) / (2.0 * a);
+            root2 = (-b - sqrt(determinant) ) / (2.0 * a);
+            printf("root1 = %.2lf and root2 = %.2lf\n", root1, root2);
+        }
+        else
+        {
+            real = -b / (2.0 * a);
+            img = sqrt( -determinant ) / (2.0 * a);
+            printf("root1 = %.2lf + %.2lfi and root 2 = %.2lf - %.2lfi\n", real, img, real, img);
+        }
+        return 0;
+    }
 
 #### Output
-    TODO
+    Enter the value of a, b and c: 1, 0, -4
+    root1 = 2.00 and root2 = -2.00
 
 
 ### **WAP to input two numbers and operator among [ +, -, \*, /].If the user enters + then the program should perform the addition of the number and display the sum. If the user enters - then the program should perform the subtraction of number and display the difference and so on for \* and /.**

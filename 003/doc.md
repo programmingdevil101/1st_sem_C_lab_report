@@ -241,6 +241,19 @@
 
 ### **WAP to find the roots of quadratic equation.**
 
+#### Algorithm
+    step 1: start
+    step 2: declare variables
+    step 3: read a, b and c
+    step 4: calculate: determinant = b*b - 4ac
+    step 5: if determinant is 0 go to step 6 otherwire go to step 7
+    step 6: calculate root1 = root2 = -b/2a
+    step 7: if determinant is greater than 0 go to step 8 otherwise go to step 9
+    step 8: calculate root1 and root2 using quadratic formula
+    step 9: calculate real and imaginary parts and hence root1 and root2
+    step 10: write root1 and root2
+    step 11: stop
+
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_7.svg)
 
@@ -280,6 +293,21 @@
 
 
 ### **WAP to input two numbers and operator among [ +, -, \*, /].If the user enters + then the program should perform the addition of the number and display the sum. If the user enters - then the program should perform the subtraction of number and display the difference and so on for \* and /.**
+
+#### Algorithm
+    step 1: start
+    step 2: declare variables
+    step 3: read c
+    step 4: if c is + go to step 5 if c is - go to step 7 if c is * go to step 9 if c is / go to step 11 otherwise go to step 13
+    step 5: calculate sum = a+b
+    step 6: write sum
+    step 7: calculate difference = a-b
+    step 8: write difference
+    step 9: calculate product = a*b
+    step 10: write product
+    step 11: calculate quotient = a/b
+    step 12: write quotient
+    step 13: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_8.svg)
@@ -330,6 +358,24 @@
 - Percentage >= 60% : D
 - Percentage >= 40% : E
 
+#### Algorithm
+    step 1: start
+    step 2: declare variables
+    step 3: read subject marks
+    step 4: if any of the subject marks is less than 40 go to step 5 otherwise go to step 6
+    step 5: Write the student failed
+    step 6: calculate percent = total marks / 5
+    step 7: if percent is greater than or equal to 90 go to step 8 otherwise go to step 9
+    step 8: write the student passed with grade A
+    step 9: if percent is greater than or equal to 80 go to step 10 otherwise go to step 11
+    step 10: write the student passed with grade B
+    step 9: if percent is greater than or equal to 70 go to step 11 otherwise go to step 12
+    step 11: write the student passed with grade C
+    step 9: if percent is greater than or equal to 60 go to step 12 otherwise go to step 13
+    step 12: write the student passed with grade D
+    step 13: write the student passed with grade E
+    step 14: stop
+
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_9.svg)
 
@@ -370,6 +416,29 @@
 
 
 ### **WAP to input a number from user. If the user enters a number less than or equal to zero then program should just display the number. If the user enters 1 the program should display the output as neither prime nor composite, if the user enters 2 the program should display output as smallest and only even prime number. If the user enters number greater than 2 the program should check whether the number is prime or not, also if the number is not prime the program should display if it is even or odd.**
+
+#### Algorithm
+    step 1: start
+    step 2: declare variables
+    step 3: read num
+    step 4: if n is less than or equal to 0 go to step 5 otherwire go to step 6
+    step 5: write num
+    step 6: if number is equal to 1 go to step 7 otherwise go to step 8
+    step 7: write "neither prime nor composite"
+    step 8: if number is equal to 2 go to step 9 otherwise go to step 10
+    step 9: write "smallest and only even prime"
+    step 10: next = 2
+    step 11: if next less than or equal to num / 2 go to step 12 otherwise go to step 16
+    step 12: if num is divisible by next go to step 13 otherwise go to step 14
+    step 13: is_prime = 1
+    step 14: next = next + 1
+    step 15: go to step 11
+    step 16: if is_prime equals to 0 go to step 17 otherwise go to step 18
+    step 17: write the number is prime
+    step 18: if the number is divisible by 2 go to step 19 otherwise go to step 20
+    step 19: write the number is even
+    step 20: write the number is odd
+    step 21: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_10.svg)

@@ -200,10 +200,42 @@
 ### **WAP to input two numbers and operator among [ +, -, \*, /].If the user enters + then the program should perform the addition of the number and display the sum. If the user enters - then the program should perform the subtraction of number and display the difference and so on for \* and /.**
 
 #### Code
-    TODO
+    #include <stdio.h>
+
+    int main()
+    {
+        int a, b;
+        char c;
+        printf("Enter two numbers a and b: ");
+        scanf("%d%d", &a, &b);
+        printf("Enter an operator (+, -, *, /): ");
+        scanf(" %c", &c);
+        switch (c)
+        {
+        case '+':
+            printf("Sum = %d\n", a+b);
+            break;
+        case '-':
+            printf("Difference = %d\n", a-b);
+            break;
+        case '*':
+            printf("Product = %d\n", a*b);
+            break;
+        case '/':
+            printf("Quotient = %d\n", a/b);
+            break;
+
+        default:
+            printf("Invalid operator %c\n", c);
+            break;
+        }
+        return 0;
+    }
 
 #### Output
-    TODO
+    Enter two numbers a and b: 10 5
+    Enter an operator(+, -, *, /): *
+    Product = 50
 
 
 ### **WAP in C to input marks of five subjects C-programming, Physics, Maths, Applied Mechanics and Basic Electrical. Display whether the students passed or failed. Take F.M = 100 and PM = 40. For passed students calculate percentage and grade according to following:**

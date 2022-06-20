@@ -246,16 +246,86 @@
 - Percentage >= 40% : E
 
 #### Code
-    TODO
+    #include <stdio.h>
+
+    int main()
+    {
+        float c, ap, phy, math, elec;
+        float percent;
+        printf("Enter the marks of five subjects: ");
+        scanf("%f%f%f%f%f", &c, &ap, &phy, &math, &elec);
+        if(c < 40.0 || ap < 40.0 || phy < 40.0 || math < 40.0 || elec < 40.0)
+        {
+            printf("The student failed\n");
+        }
+        else
+        {
+            percent = (c + ap + phy + math + elec) / 5;
+            if(percent >= 90.0)
+                printf("The student passed with grade A\n");
+            else if(percent >= 80.0)
+                printf("The student passed with grade B\n");
+            else if(percent >= 70.0)
+                printf("The student passed with grade C\n");
+            else if(percent >= 60.0)
+                printf("The student passed with grade D\n");
+            else if(percent >= 40.0)
+                printf("The student passed with grade E\n");        
+        }
+        return 0;
+
+    }
 
 #### Output
-    TODO
+    Enter the marks of five subjects: 50 56 76 83 45
+    The student passed with grade D
 
 
 ### **WAP to input a number from user. If the user enters a number less than or equal to zero then program should just display the number. If the user enters 1 the program should display the output as neither prime nor composite, if the user enters 2 the program should display output as smallest and only even prime number. If the user enters number greater than 2 the program should check whether the number is prime or not, also if the number is not prime the program should display if it is even or odd.**
 
 #### Code
-    TODO
+    #include <stdio.h>
+    int main()
+    {
+        int num, next, is_prime = 0;
+        printf("Enter a number: ");
+        scanf("%d", &num);
+        if(num <= 0)
+        {
+            printf("%d\n", num);
+        }
+        else if(num == 1)
+        {
+            printf("Neither prime nor composite\n");
+        }
+        else if(num == 2)
+        {
+            printf("Smallest and only prime number\n");
+        }
+        else
+        {
+            for(next = 2; next <= (num / 2); next += 1) {
+                if(num % next == 0)
+                {
+                    is_prime = 1;
+                    break;
+                }
+            }
+            if(is_prime == 0)
+            {
+                printf("The number %d is prime\n", num);
+            }
+            else
+            {
+                if(num % 2 == 0)
+                    printf("The number is even\n");
+                else
+                    printf("The number is odd\n");
+            }
+        }
+        return 0;
+    }
 
 #### Output
-    TODO
+    Enter a number: 29
+    The number 29 is a prime

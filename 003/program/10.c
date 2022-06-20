@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int num, next, is_prime = 0;
@@ -26,7 +25,6 @@ int main()
                 break;
             }
         }
-
         if(is_prime == 0)
         {
             printf("The number %d is prime\n", num);

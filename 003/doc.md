@@ -34,6 +34,9 @@
 
 ### **WAP to find maximum between three numbers entered by user**
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_2.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -57,6 +60,9 @@
 
 
 ### **WAP to input a character from user and check whether the character is vowel or consonant**
+
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_3.svg)
 
 #### Code
     #include <stdio.h>
@@ -90,6 +96,9 @@
 ### **WAP to input a character from the user and check whether the character is Alphabet.**
 ### **If the character is Alphabet then show whether it is uppercase or lowercase.**
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_4.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -114,6 +123,9 @@
 
 ### **WAP to check whether the year entered by the user is a leap year or not**
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_5.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -136,6 +148,9 @@
 
 ### **WAP to check whether the number entered by the user is divisible by 5 and 11 or not**
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_6.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -147,7 +162,7 @@
         if(num % 55 == 0)
             printf("Ther number %d is divisible by 5 and 11\n", num);
         else if(num % 5 == 0)
-            printf("ther number %d is only divisible by 5\n", num);
+            printf("The number %d is only divisible by 5\n", num);
         else if(num % 11 == 0)
             printf("The number %d is only divisible 11\n", num);
         else
@@ -161,6 +176,9 @@
 
 
 ### **WAP to find the roots of quadratic equation.**
+
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_7.svg)
 
 #### Code
     #include <stdio.h>
@@ -198,6 +216,9 @@
 
 
 ### **WAP to input two numbers and operator among [ +, -, \*, /].If the user enters + then the program should perform the addition of the number and display the sum. If the user enters - then the program should perform the subtraction of number and display the difference and so on for \* and /.**
+
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_8.svg)
 
 #### Code
     #include <stdio.h>
@@ -245,6 +266,9 @@
 - Percentage >= 60% : D
 - Percentage >= 40% : E
 
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_9.svg)
+
 #### Code
     #include <stdio.h>
 
@@ -282,6 +306,9 @@
 
 
 ### **WAP to input a number from user. If the user enters a number less than or equal to zero then program should just display the number. If the user enters 1 the program should display the output as neither prime nor composite, if the user enters 2 the program should display output as smallest and only even prime number. If the user enters number greater than 2 the program should check whether the number is prime or not, also if the number is not prime the program should display if it is even or odd.**
+
+#### Flowchart
+![](../res/lab_sheet_3_flow_chart_10.svg)
 
 #### Code
     #include <stdio.h>

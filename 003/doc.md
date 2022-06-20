@@ -90,7 +90,7 @@
     step 4: if c is any of a, e, i, o, u go to step 5 otherwise go to step 6
     step 5: write the given character is vowel
     step 6: write the given character is consonant
-    step 8: stop
+    step 7: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_3.svg)
@@ -127,6 +127,17 @@
 ### **WAP to input a character from the user and check whether the character is Alphabet.**
 ### **If the character is Alphabet then show whether it is uppercase or lowercase.**
 
+#### Algorithm
+    step 1: start
+    step 2: declare c
+    step 3: read c
+    step 4: if c is in between a-Z go to step 5 otherwire go to step 6
+    step 5: Write the given character is an lowercase alphabet
+    step 6: if c is in between A-Z go to step 7 otherwise go to step 8
+    step 7: write the given character is an uppercase
+    step 8: write the given character is not an alphabet
+    step 9: stop
+
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_4.svg)
 
@@ -154,6 +165,15 @@
 
 ### **WAP to check whether the year entered by the user is a leap year or not**
 
+#### Algorithm
+    step 1: start
+    step 2: declare year
+    step 3: read year
+    step 4: if year is divisible by 400 or year is divisible by 4 but not by 100 then go to step 5 otherwise go to step 6
+    step 5: write the given year is a leap year
+    step 6: write the given year is not a leap year
+    step 7: stop
+
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_5.svg)
 
@@ -178,6 +198,19 @@
 
 
 ### **WAP to check whether the number entered by the user is divisible by 5 and 11 or not**
+
+#### Algorithm
+    step 1: start
+    step 2: declare num
+    step 3: read num
+    step 4: if num is divisible by 55 then go to step 5 otherwise go to step 6
+    step 5: write the number is divisible by 5 and 11
+    step 6: if number is divisible by 5 then go to step 7 otherwise go to step 8
+    step 7: write the number is only divisible by 5
+    step 8: if number is divisible by 11 go to step 9 otherwise go to step 10
+    step 9: Write the number is only divisible by 11
+    step 10: Write the number is not divisible by both 5 and 11
+    step 11: stop
 
 #### Flowchart
 ![](../res/lab_sheet_3_flow_chart_6.svg)

@@ -111,5 +111,5 @@
         return 0;
     }
 
-#### **Output**ma
+#### **Output**
 ![](../res/output_04_04.png)

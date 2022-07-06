@@ -1,6 +1,6 @@
 # To be familiar with LOOPS
 
-### **WAP to read 10 numbers from users and fins the sum and average.**
+### **WAP to read 10 numbers from users and finds the sum and average.**
 
 #### **Code**
     #include <stdio.h>
@@ -391,6 +391,126 @@
                   1                    5
 
 
-#### **Code**
+#### **Program 1**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, i;
+        for(j=1; j<=5; j++)
+        {
+            for(i=1; i<=j; i++)
+                printf("%d  ", i);
+            printf("\n");
+        }
+        return 0;
+    }
 
 #### **Output**
+![](../res/output_05_131.png)
+
+#### **Program 2**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, i;
+        for(j=1; j<=5; j++)
+        {
+            for(i=1; i<=6-j; i++)
+                printf("%d  ", i);
+            printf("\n");
+        }
+        return 0;
+    }
+
+#### **Output**
+![](../res/output_05_132.png)
+
+#### **Program 3**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, space, star;
+        for(j=4; j>=0; j--)
+        {
+            // spaces
+            for(space=0; space<j; space++)
+                printf(" ");
+            // star
+            for(star=0; star<2*(5-j)-1; star++)
+                printf("*");
+            printf("\n");
+        }
+        return 0;
+    }
+
+
+#### **Output**
+![](../res/output_05_133.png)
+
+#### **Program 4**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, i, count=0;
+        for(j=0; j<5; j++)
+        {
+            for(i=0; i<j+1; i++)
+                printf("%d  ", ++count);
+            printf("\n");
+        }
+        return 0;
+    }
+
+
+#### **Output**
+![](../res/output_05_134.png)
+
+#### **Program 5**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, i, space;
+        for(j=5; j>0; j--)
+        {
+            // space
+            for(space=0; space < 2*(5-j); space++)
+                printf(" ");
+            // increasing number upto j
+            for(i=1; i<j+1; i++)
+                printf("%d ", i);
+            // decreasing number from j-1 to 1;
+            for(i=j-1; i>0; i--)
+                printf("%d ", i);
+            printf("\n");
+        }
+        return 0;
+    }
+
+
+#### **Output**
+![](../res/output_05_135.png)
+
+#### **Program 6**
+    #include <stdio.h>
+
+    int main()
+    {
+        int j, i;
+        for(j=5; j>0; j--)
+        {
+            for(i=5; i>5-j; i--)
+                printf("%d  ", i);
+            printf("\n");
+        }
+        return 0;
+    }
+
+
+
+#### **Output**
+![](../res/output_05_136.png)

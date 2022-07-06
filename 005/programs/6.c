@@ -17,6 +17,6 @@ int main()
     scanf("%d%d", &x, &n);
     for(i=1; i<=n; i++)
         sum += pow(x, i) / factorial(i);
-    printf("1/1! + 1/2! + . . . . + 1/%d! = %lf\n", n, sum);
+    printf("%d/1! + %d^2/2! + . . . . + %d^%d/%d! = %lf\n", x, x, x, n, n, sum);
     return 0;
 }

@@ -14,5 +14,6 @@ int main()
         second += first;
         first = temp;
     }
+    printf("\n");
     return 0;
 }

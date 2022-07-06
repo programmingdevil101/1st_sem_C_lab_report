@@ -18,6 +18,6 @@ int main()
         rev += mod;
         n /= 10;
     }
-    printf("Number in reverse: %0*d", count, rev);
+    printf("Number in reverse: %0*d\n", count, rev);
     return 0;
 }

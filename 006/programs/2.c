@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 int pow_(int base, int power)
 {
     int res = 1;

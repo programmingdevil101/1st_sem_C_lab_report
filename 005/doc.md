@@ -142,7 +142,7 @@
     Enter a number: 10
     1/1! + 1/2! + . . . . + 1/10! = 1.718282
 
-### **WAP to display sum of series: x + x^2/2! + x^3/3! + x^4/4! + x^5/5! + ... x^n/n!**
+### **WAP to display sum of series: x + x<sup>2</sup>/2! + x<sup>3</sup>/3! + x<sup>4</sup>/4! + x<sup>5</sup>/5! + ... x<sup>n</sup>/n!**
 
 #### **Code**
     #include <stdio.h>

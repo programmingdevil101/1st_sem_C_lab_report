@@ -13,10 +13,12 @@ void fill_matrix(int*, int, int);
 
 int main() {
     int m, n, n_, t; // orders of two input matrix m x n, n_ x t
+    int A[15][15];
+    int B[15][15];
+    int res[15][15];
     printf("Enter the order of first matrix\n>");
     scanf("%d%d", &m, &n);
-    // initialize the first input matrix of order (m x n)
-    int A[m][n];
+
     // fill the matrix A with user input;
     fill_matrix(A[0], m, n);
     printf("first matrix: \n");
@@ -30,10 +32,6 @@ int main() {
         printf("enter the order of second matrix again\n>");
         scanf("%d%d", &n_, &t);
     }
-    //initialize second matrix of order (n_=n, t)
-    int B[n_][t];
-    // initialize result matrix;
-    int res[m][t];
     // fill matrix B with user input
     fill_matrix(B[0], n_, t);
     printf("second matrix: \n");
